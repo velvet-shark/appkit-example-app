@@ -70,13 +70,15 @@ export default function Home() {
           </div>
         )}
 
-        <div className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
-          <h3 className="text-sm font-semibold bg-gray-100 p-2">Network selection button</h3>
-          <div className="text-xs bg-gray-50 p-2 font-mono overflow-x-auto">{"<w3m-network-button />"}</div>
-          <div className="flex justify-center items-center p-4">
-            <w3m-network-button />
+        {isConnected && (
+          <div className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
+            <h3 className="text-sm font-semibold bg-gray-100 p-2">Network selection button</h3>
+            <div className="text-xs bg-gray-50 p-2 font-mono overflow-x-auto">{"<w3m-network-button />"}</div>
+            <div className="flex justify-center items-center p-4">
+              <w3m-network-button />
+            </div>
           </div>
-        </div>
+        )}
 
         <div className="grid bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm">
           <h3 className="text-sm font-semibold bg-gray-100 p-2">Custom button</h3>

@@ -8,13 +8,9 @@
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+
+...or `yarn dev`, or `pnpm dev`, or `bun dev`.
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -24,6 +20,6 @@ bun dev
 
 To learn more about AppKit:
 
-- [AppKit Documentation](https://nextjs.org/docs) - learn how to use AppKit in your project.
-- [WalletConnect Docs](https://nextjs.org/learn) - docs for WalletConnect SDKs: AppKit (to build apps) and WalletKit (to build wallets).
+- [AppKit Documentation](https://docs.walletconnect.com/appkit/overview) - learn how to use AppKit in your project.
+- [WalletConnect Docs](https://docs.walletconnect.com/) - docs for WalletConnect SDKs: AppKit (to build apps) and WalletKit (to build wallets).
 - [WalletConnect.com](https://walletconnect.com/) - tools to build user experiences that make digital ownership effortless, intuitive, and secure.
