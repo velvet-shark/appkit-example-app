@@ -2,7 +2,7 @@
 
 1. Go to [cloud.walletconnect.com](https://cloud.walletconnect.com) and create a new project. Copy the project ID.
 
-2. Rename `.env.example` to `.env` and fill in the project ID.
+2. Rename `.env.example` to `.env` and fill in the project ID that you just created in step 1.
 
 3. Run:
 
